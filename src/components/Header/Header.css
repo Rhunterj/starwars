@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 30px;
+  width: 500px;
+}
+
+.searchbar {
+  padding: 10px;
+}
+
+.resultBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  position: absolute;
+  width: 500px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 60px;
+}
+
+.resultBox p {
+  padding: 10px;
+}
+
+.resultBox a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.result {
+  cursor: pointer;
+}
+
+.result:hover {
+  background-color: #3293e6;
+  color: white;
+}
